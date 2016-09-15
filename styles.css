@@ -1,0 +1,73 @@
+/*
+ * Articles are all wrapped in one div,
+ * which is floated left
+ */
+article {
+  border: black 2px solid;
+}
+
+#articles {
+  float: left;
+  max-width: 70%;
+}
+
+/*
+ * The aside is floated right. If you
+ * had more than one aside that you wanted
+ * in the right column, you'd need to wrap
+ * all of them in a div, and float that div.
+ */
+aside {
+  border: purple 2px dashed;
+
+  float: right;
+  max-width: 25%;
+}
+
+
+
+
+
+div {
+  /*float: left;*/
+  margin: 10px;
+}
+
+#orange {
+  display: block;
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+}
+
+#green {
+    display: block;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+#red {
+    display: inline-block;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+    position: relative;
+    right: 10em;
+
+}
+
+#test-text {
+  display: inline-block;
+}
+
+/*p {
+  padding: 10px;
+}*/
+
+/*p:nth-of-type(3) {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+}*/
